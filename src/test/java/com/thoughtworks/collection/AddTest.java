@@ -14,6 +14,7 @@ public class AddTest {
         //求leftBorder 和rightBorder之间的偶数和
         int leftBorder = 1;
         int rightBorder = 10;
+
         Add add = new Add();
         assertThat(add.getSumOfEvens(leftBorder, rightBorder)).isEqualTo(30);
         assertThat(add.getSumOfEvens(rightBorder, leftBorder)).isEqualTo(30);
